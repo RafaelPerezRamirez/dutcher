@@ -404,6 +404,7 @@ object.logo {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 17px!important;
+    overflow: hidden;
 }
 .single-post .shadow-position{
     opacity: 0;
@@ -413,10 +414,8 @@ object.logo {
     opacity: 0.4;
 }
 .single-post .info-post{
-    bottom: 5%;
-    opacity: 0;
+    bottom: -25%;
     pointer-events: none;
-    opacity: 0;
 }
 .single-post:hover .info-post{
     opacity: 1;
@@ -530,4 +529,12 @@ a.red.redinsta {
     color: white;
     margin-top: 40px;
     display: block;
+}
+.category-template{
+    padding: 130px 0px;
+    width: 90%;
+    margin: 0 auto;
+}
+.category-template .category-tab {
+    width: 100%;
 }
