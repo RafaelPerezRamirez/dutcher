@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8"/>
-    <title>Dutcher</title>
+    <title><?php wp_title(''); ?></title>
     <link rel="icon" href=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Meta SEO -->
@@ -23,7 +23,11 @@
     <!-- Google Analytics -->
 </head>
 <body <?php body_class("normal"); ?>>
-<div class="second-menu animationMenu"></div>
+<div class="second-menu animationMenu">
+    <div class="">
+
+    </div>
+</div>
 <div class="shadow-layer animationMenu"></div>
 <div class="main-content animationMenu">
     <?php echo Gafa\GafaTemplate::Imprimir( 'header/menu.tpl.php'); ?>

@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'espinoza-bold';
   src: url("assets/fonts/EspinosaNova-Bold.eot");
-  src: url("assets/EspinosaNova-Bold") format("truetype");
+  src: url("assets/fonts/EspinosaNova-Bold") format("truetype");
   font-weight: normal;
 }
 .avenir-normal{
@@ -208,8 +208,8 @@ nav{
     left: -100%;
     width: 40%;
     height: 100vh;
-    background: blue;
-    z-index: 10;
+    background: #354a5f;
+    z-index: 110;
 }
 .secondOpen{
     left: 0%;
@@ -301,6 +301,8 @@ object{
 }
 a.logo-button {
     display: block;
+    left: 100px;
+    top: 53%;
 }
 object.logo {
     width: 180px;
@@ -312,12 +314,12 @@ object.logo {
     width: 50px;
 }
 .content-feed {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 .most-recent-post{
+    display: block;
     width: 100%;
     height: 94vh;
-    background-image: url('https://fanart.tv/fanart/music/eb872766-98f6-453d-883f-2ae908a18315/artistbackground/tv-on-the-radio-51c22b27a8696.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -367,9 +369,17 @@ object.logo {
     right: 5%;
     z-index: 10;
     width: 55%;
+    min-height: 165px;
+    overflow: hidden;
 }
 .color-white{
     color: white;
+}
+.color-blue{
+    color: #354a5f;
+}
+.color-green{
+    color: #2ebd9a;
 }
 .ls1{
     letter-spacing: 1px;
@@ -394,12 +404,12 @@ object.logo {
     margin: 0 auto;
     margin-top: 70px;
     max-width: 1008px;
+    text-align: left;
 }
 .single-post{
-    background-image: url('http://www.zoomenlinea.com/wp-content/uploads/2013/10/coachella-2013-festival-styles02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
+    width: 59.5%;
     height: 300px;
     display: inline-block;
     vertical-align: top;
@@ -413,24 +423,36 @@ object.logo {
 .single-post:hover .shadow-position{
     opacity: 0.4;
 }
-.single-post .info-post{
-    bottom: -25%;
-    pointer-events: none;
+.info-post .title {
+    bottom: 0%;
+    position: absolute;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    display: block;
 }
-.single-post:hover .info-post{
-    opacity: 1;
-    pointer-events: all;
-    bottom: 20%;
+.info-post .excerpt {
+    position: absolute;
+    bottom: -80%;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+}
+.single-post:hover .title{
+    bottom: 60%;
+}
+.single-post:hover .excerpt{
+    bottom: 15%;
 }
 .single-post:nth-child(2), .single-post:nth-child(3), .single-post:nth-child(6),
 .single-post:nth-child(7), .single-post:nth-child(10){
-    width: 35%;
+    width: 39%;
 }
 .single-post:nth-child(2), .single-post:nth-child(6){
-    margin-left: 10px;
+    margin-left: 1%;
 }
 .single-post:nth-child(3), .single-post:nth-child(7), .single-post:nth-child(10){
-    margin-right: 10px;
+    margin-right: 1%;
 }
 .single-post:nth-child(2) .info-post, .single-post:nth-child(3) .info-post,
 .single-post:nth-child(6) .info-post, .single-post:nth-child(7) .info-post,
@@ -443,7 +465,7 @@ object.logo {
     padding-top: 20px;
     color: white;
     margin-bottom: 20px!important;
-    width: 96.5%;
+    width: 100%;
     margin: 0 auto;
 }
 .group-post-index{
@@ -456,14 +478,55 @@ object.logo {
     position: absolute;
     right: 0;
     top: 0px;
+    padding-right: 30px;
 }
-.item-tendencia{
+#menu-header li{
+    list-style: none;
     width: 115px;
-    background: white;
+    background: #2ebd9a;
     display: inline-block;
     padding: 23.5px 0px;
     position: relative;
     margin-left: -4px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+}
+#menu-header li a{
+    color: white;
+    z-index: 100;
+    position: relative;
+    font-size: 19px;
+    font-family: 'avenir-normal';
+    letter-spacing: 1px;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+.current-menu-item{
+    background: white!important;
+}
+.current-menu-item a{
+    color: #2ebd9a!important;
+}
+#menu-header li::before{
+    content: '';
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:100%;
+    left: 0;
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+#menu-header li:hover a{
+    color: #2ebd9a;
+}
+#menu-header li:hover::before{
+    top: 0%;
 }
 .color-tab{
     position: absolute;
@@ -471,17 +534,11 @@ object.logo {
     bottom: 0;
     width: 100%;
     height: 0%;
-    background: #2ebd9a;
+    background: white;
 
 }
-.item-tendencia span{
-    color: #2ebd9a;
-    z-index: 100;
-    position: relative;
-    font-size: 19px;
-}
 .item-tendencia:hover span{
-    color: white!important;
+    color: #2ebd9a!important;
 }
 .item-tendencia:hover .color-tab{
     height: 100%;
@@ -537,4 +594,130 @@ a.red.redinsta {
 }
 .category-template .category-tab {
     width: 100%;
+}
+.most-recent-post .info-post {
+    min-height: initial;
+}
+.most-recent-post .excerpt {
+    position: relative;
+    bottom: initial;
+}
+body.post-template-default.single.single-post{
+    width: 100%;
+    margin-left: initial;
+    background: initial;
+    height: initial;
+    display: initial;
+    margin-bottom: initial!important;
+    overflow: initial;
+}
+.single-header{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.color_white{
+    color: white;
+}
+main.main-single {
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.subtitle-single{
+    font-size: 19px;
+}
+.next-previous{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.next-single{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hr-single{
+    margin: 20px 0px;
+    border: solid 1px #e4dede;
+}
+.category-single{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    color: white;
+    background: #354a5f;
+    padding: 10px 25px;
+}
+.image-related{
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+}
+.single-related-post{
+    width: 33%;
+    display: inline-block;
+    margin-right: 2%;
+    vertical-align: top;
+}
+.title-related{
+    display: block;
+    margin: 10px 0px 0px 0px;
+}
+.info-author{
+    top: 12px;
+    left: 12px;
+    z-index: 1;
+}
+.foto-autor{
+    width: 42px;
+    height: 42px;
+    background-size: cover;
+    border-radius: 100%;
+    border: solid 2px white;
+    z-index: 1000;
+    display: inline-block;
+    margin-right: 6px;
+}
+.content-principal .foto-autor {
+    width: 70px;
+    height: 70px;
+}
+.heateor_sss_vertical_sharing{
+    top: 50%!important;
+    transform: translateY(-50%);
+}
+.home .heateor_sss_vertical_sharing{
+    padding: 0px!important;
+}
+.heateor_sss_sharing_title {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 17px;
+    font-family: 'avenir-bold';
+    text-transform: uppercase;
+    position: relative;
+    top: 2px;
+}
+ul.heateor_sss_sharing_ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-single-related .heateor_sss_sharing_container.heateor_sss_horizontal_sharing,
+.content-single-related br{
+    display: none;
+}
+.comments-fb{
+    padding: 30px 0px;
+}
+body.archive.author .info-author {
+    display: none;
+}
+.pgntn-page-pagination-intro {
+    display: none!important;
+}
+.pagination-content {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'avenir-normal';
+    letter-spacing: 1px;
 }

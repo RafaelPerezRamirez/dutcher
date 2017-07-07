@@ -1,32 +1,31 @@
 <?php get_header(); ?>
 <div class="category-template">
     <?php
-    // Check if there are any posts to display
     if ( have_posts() ) : ?>
     <header class="archive-header">
         <div class="category-tab avenir-normal title uppercase ls5 text-left">
-            <?php single_cat_title( '', true ); ?>
+            <?php
+            if (is_author())
+            {
+                echo ' Todas las entradas '.the_author_posts_link();
+            }else{
+                single_cat_title( '', true );
+            }
+            ?>
         </div>
         <?php
-        // Display optional category description
         if ( category_description() ) : ?>
             <div class="archive-meta"><?php echo category_description(); ?></div>
         <?php endif; ?>
     </header>
-    <?php
-    // The Loop
-    while ( have_posts() ) : the_post(); ?>
-    <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-    <small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
-    <div class="entry">
-        <?php the_content(); ?>
-        <p class="postmetadata"><?php
-        comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', 'Comments closed');
-        ?></p>
-    </div>
-    <?php endwhile;
-    else: ?>
-        <p>Sorry, no posts matched your criteria.</p>
+    <?php echo Gafa\GafaTemplate::Imprimir( 'notas/nota.tpl.php'); ?>
+    <?php else: ?>
+        <div class="avenir-normal title">
+            No hay resultados <a class="color-green" href="<?php echo get_home_url(); ?>">click para volver al inicio</a>
+        </div>
     <?php endif; ?>
+    <div class="pagination-content">
+        <?php if ( function_exists( 'pgntn_display_pagination' ) ) pgntn_display_pagination( 'posts' ); ?>
+    </div>
 </div>
 <?php get_footer(); ?>
