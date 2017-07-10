@@ -1,6 +1,9 @@
 <div class="trending-post">
-    <?php while ( have_posts($args) ) : the_post(); ?>
+    <?php while ( have_posts() ) : the_post(); ?>
     <div class="single-post relative" style="background-image:url('<?php echo the_post_thumbnail_url( ); ?> ');">
+        <div class="category-single avenir-normal medium ls2 uppercase">
+            <?php the_category(', ') ?>
+        </div>
         <div class="shadow-position absolute animationMenu"></div>
         <div class="info-author absolute">
             <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php echo get_avatar_url( get_the_author_meta( 'ID' )); ?>);"></a>

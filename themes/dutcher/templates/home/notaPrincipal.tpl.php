@@ -1,7 +1,7 @@
 <?php
     query_posts('order=Desc&posts_per_page=1');
 ?>
-<?php while ( have_posts($args) ) : the_post(); ?>
+<?php while ( have_posts() ) : the_post(); ?>
 <div class="relative content-principal">
     <div class="info-author absolute">
         <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php echo get_avatar_url( get_the_author_meta( 'ID' )); ?>);"></a>

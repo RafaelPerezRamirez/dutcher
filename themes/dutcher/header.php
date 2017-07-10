@@ -2,8 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="utf-8"/>
-    <title><?php wp_title(''); ?></title>
-    <link rel="icon" href=""/>
+    <title>
+        <?php
+        if(is_home()){
+            echo 'Dutcher';
+        }else{
+            wp_title(''); 
+        }
+        ?>
+    </title>
+    <link rel="icon" href="<?php assets(); ?>/images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Meta SEO -->
     <!-- Meta Facebook -->
@@ -23,11 +31,7 @@
     <!-- Google Analytics -->
 </head>
 <body <?php body_class("normal"); ?>>
-<div class="second-menu animationMenu">
-    <div class="">
-
-    </div>
-</div>
+<?php echo Gafa\GafaTemplate::Imprimir( 'header/menuslide.tpl.php'); ?>
 <div class="shadow-layer animationMenu"></div>
 <div class="main-content animationMenu">
     <?php echo Gafa\GafaTemplate::Imprimir( 'header/menu.tpl.php'); ?>

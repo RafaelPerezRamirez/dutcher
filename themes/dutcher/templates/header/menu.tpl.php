@@ -8,16 +8,19 @@
         <a href="<?php echo get_home_url(); ?>" class="logo-button centrar_alto">
             <object data="<?php echo assets(); ?>/images/logo2.svg" type="image/svg+xml" class="logo"></object>
         </a>
-    </div>
-    <div class="links-category">
-        <?php
-            $args = array(
-                'menu_id' => 'menu-header',
-            );
-            wp_nav_menu( $args);
-        ?>
-        <div class="inline middle search-button">
-
+        <div class="links-category">
+            <?php
+                $args = array(
+                    'menu_id' => 'menu-header',
+                );
+                wp_nav_menu( $args);
+            ?>
+            <div class="inline middle search-button pointer">
+                <img src="<?php assets(); ?>/images/search.png" alt="">
+            </div>
         </div>
     </div>
+    <form role="search" method="get" id="searchform" class="searchform form-search animationMenu" action="<?php echo home_url('/'); ?>">
+        <input type="text" name="s" id="s" placeholder="Search">
+    </form>
 </nav>
