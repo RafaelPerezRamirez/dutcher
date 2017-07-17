@@ -23,7 +23,7 @@
 		 		</div>
 			</div>
 		</div>
-		<div class="footer-dos text-center big avenir-normal ls5">
+		<div class="footer-dos text-center big avenir-normal ls2">
 			©Dutcher México 2017 todos los derechos reservados
 		</div>
         <?php wp_footer();?>

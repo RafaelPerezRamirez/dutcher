@@ -7,11 +7,11 @@
         if(is_home()){
             echo 'Dutcher';
         }else{
-            wp_title(''); 
+            wp_title('');
         }
         ?>
     </title>
-    <link rel="icon" href="<?php assets(); ?>/images/favicon.png"/>
+    <link rel="icon" href="<?php assets(); ?>/images/favicones.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Meta SEO -->
     <!-- Meta Facebook -->

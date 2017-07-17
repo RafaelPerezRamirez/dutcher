@@ -625,6 +625,7 @@ body.post-template-default.single.single-post{
 main.main-single {
     width: 75%;
     padding: 10px 0px;
+    padding-left: 50px;
 }
 .subtitle-single{
     font-size: 19px;
@@ -640,6 +641,10 @@ main.main-single {
 }
 .hr-single{
     margin: 20px 0px;
+    border: solid 1px #e4dede;
+}
+.hr-recent{
+    margin: 10px 0px;
     border: solid 1px #e4dede;
 }
 .category-single{
@@ -841,8 +846,8 @@ a.red-author {
     left: 74px;
 }
 aside.single-aside-left {
-    width: 16%;
-    margin-left: 8%;
+    width: 20%;
+    margin-left: 4%;
 }
 .top{
     vertical-align: top;
@@ -850,7 +855,7 @@ aside.single-aside-left {
 .body-single {
     width: 85%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 aside.single-aside-left .inline.middle.img-author {
     margin: 0 auto!important;
@@ -909,4 +914,96 @@ body.post-template-default.single.single-post .category-single, body.archive.aut
 }
 .content-single-related:first-child{
     padding-left: 0px;
+}
+body.archive.author .grid-author .info-author {
+    text-align: left;
+}
+aside.single-aside-left .bio-author {
+    display: none;
+}
+aside.single-aside-left .redes-author {
+    margin-top: 13px;
+}
+.related-single {
+    margin-bottom: 20px;
+}
+.author-small {
+    text-align: left!important;
+}
+.author-small .img-author {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.author-small .bio-author {
+    display: none;
+}
+.author-small .grid-author {
+    text-align: left;
+    margin-bottom: 13px;
+}
+.author-small .redes-author {
+    display: none;
+}
+.author-small .nombre-author {
+    font-size: 12px;
+    padding-top: 5px;
+}
+.heateor_sss_sharing_container.heateor_sss_horizontal_sharing {
+    margin-top: 30px;
+}
+.author-small .nombre-author {
+    pointer-events: all;
+}
+.boton-blue {
+    background: #354a5f;
+}
+.boton-green{
+    background: #2ebd9a;
+}
+.boton-dutcher {
+    color: white;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.boton-dutcher:hover{
+    opacity: 0.95;
+}
+.most-recent .single-post.relative {
+    display: block;
+    width: 100%!important;
+    height: 190px;
+    margin-bottom: 10px!important;
+}
+.most-recent .info-author.absolute {
+    display: none;
+}
+.most-recent a.title {
+    font-size: 16px;
+}
+.most-recent .shadow-position {
+    opacity: 0.4;
+}
+.most-recent .excerpt {
+    display: none;
+}
+.single-post:hover .most-recent a.title{
+    bottom: 0%!important;
+}
+.most-recent {
+    padding-top: 15px;
+}
+.most-recent .info-post{
+    bottom: 10%;
+}
+.text-most-recent{
+    font-size: 21px;
 }

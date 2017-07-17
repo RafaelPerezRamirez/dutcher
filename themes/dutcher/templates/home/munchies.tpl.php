@@ -7,5 +7,6 @@
         Munchies
     </div>
     <?php echo Gafa\GafaTemplate::Imprimir( 'notas/nota.tpl.php'); ?>
+    <a href="<?php echo get_home_url(); ?>/category/munchies/" class="boton-dutcher big boton-blue avenir-normal animationMenu ls1">Ver todo Munchies</a>  
 </div>
 <?php endif; ?>

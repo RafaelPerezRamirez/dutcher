@@ -7,5 +7,6 @@
         Cultura
     </div>
     <?php echo Gafa\GafaTemplate::Imprimir( 'notas/nota.tpl.php'); ?>
+    <a href="<?php echo get_home_url(); ?>/category/cultura/" class="boton-dutcher big boton-green avenir-normal animationMenu ls1">Ver todo Cultura</a>
 </div>
 <?php endif; ?>

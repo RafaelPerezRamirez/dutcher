@@ -109,6 +109,9 @@
     .second-menu .centrar_ancho{
         width: 70%;
     }
+    main.main-single{
+        padding-left: initial;
+    }
 }
 @media screen and (max-width: 679px) {
     .big{
@@ -215,9 +218,8 @@
         height: 70vh;
     }
     .footer-dos {
-        padding: 16px 40px;
-        line-height: 23px;
-        height: 100px;
+        padding: 15px 10px;
+        line-height: 16px;
     }
     .single-header{
         height: 350px;
@@ -294,5 +296,8 @@
         width: 90%;
         margin-bottom: 25px;
         margin-top: 25px;
+    }
+    .body-single{
+        margin-top: 20px;
     }
 }

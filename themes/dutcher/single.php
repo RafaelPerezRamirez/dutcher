@@ -7,13 +7,16 @@
             <?php the_category(', ') ?>
         </div>
         <div class="centrar_total">
-            <h2 class="espinoza-normal color_white titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
-            <h3 class="espinoza-normal color_white ls2 text-center subtitle-single"><?php the_subtitle(); ?></h3>
+            <h2 class="avenir-bold color_white titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
+            <h3 class="avenir-normal color_white ls2 text-center subtitle-single"><?php the_subtitle(); ?></h3>
         </div>
     </div>
     <div class="body-single">
         <main class="main-single inline top">
             <div id="post-<?php the_ID(); ?>">
+                <div class="author-small">
+                    <?php echo Gafa\GafaTemplate::Imprimir( 'user/user.tpl.php'); ?>
+                </div>
                 <div class="avenir-normal medium uppercase">
                     <?php the_time('j') ?> de <?php the_time('F, Y'); ?>
                 </div>
@@ -62,7 +65,16 @@
             </div>
         </main>
         <aside class="single-aside-left inline top">
-            <?php echo Gafa\GafaTemplate::Imprimir( 'user/user.tpl.php'); ?>
+            <div class="most-recent">
+                <div class="text-center avenir-normal text-most-recent">
+                    Lo más reciente
+                </div>
+                <hr class="hr-recent">
+                <?php
+                    query_posts('order=Desc');
+                ?>
+                <?php echo Gafa\GafaTemplate::Imprimir( 'notas/nota.tpl.php'); ?>
+            </div>
         </aside>
     </div>
 </div>
