@@ -58,6 +58,17 @@
         padding: initial;
         margin-bottom: 12px;
     }
+    .footer a.logo-button object {
+        width: 300px;
+    }
+    .mc4wp-form-fields label{
+        font-size: 19px;
+    }
+    .mc4wp-form-fields input[type="email"], .mc4wp-form-fields input[type="submit"]{
+        height: 35px;
+        line-height: 35px;
+        font-size: 19px;
+    }
 }
 @media screen and (max-width: 800px) {
     .menu-menu-header-container{
@@ -189,6 +200,10 @@
     .second-menu{
         width: 65%;
     }
+    .content-suscription{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 479px) {
     .links-category{
@@ -293,7 +308,7 @@
         bottom: -41px!important;
     }
     aside.single-aside-left{
-        width: 90%;
+        width: 100%;
         margin-bottom: 25px;
         margin-top: 25px;
     }

@@ -10,7 +10,9 @@
 				</div>
 			</div><!--
 		 --><div class="inline middle content-footer">
-
+		 		<div class="centrar_total content-suscription">
+		 			<?php echo do_shortcode('[mc4wp_form id="43"]'); ?>
+		 		</div>
 		 	</div><!--
 	  	 --><div class="inline middle content-footer relative">
 		 		<div class="centrar_total">
@@ -19,7 +21,7 @@
 						<a href="#" class="red redtw"></a>
 						<a href="#" class="red redinsta"></a>
 					</div>
-					<a href="#" class="ls3 avenir-normal big mail-dutcher">hello@dutcher.com.mx</a>
+					<a href="mailto:hello@dutcher.rocks" class="ls3 avenir-normal big mail-dutcher">hello@dutcher.rocks</a>
 		 		</div>
 			</div>
 		</div>
