@@ -35,4 +35,4 @@
 <div class="shadow-layer animationMenu"></div>
 <div class="main-content animationMenu">
     <?php echo Gafa\GafaTemplate::Imprimir( 'header/menu.tpl.php'); ?>
-    <div class="content-feed">
+    <div class="content-feed animated fadeIn">

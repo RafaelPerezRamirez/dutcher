@@ -16,8 +16,8 @@
             <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Road & trip</a>
             <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Personajes</a>
         </div>
-        <a href="#" class="link-menu-float title avenir-normal ls2 color_white">Quienes somos</a>
-        <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Contacto</a>
+        <a href="<?php echo get_home_url(); ?>/quienes-somos" class="link-menu-float title avenir-normal ls2 color_white">Quienes somos</a>
+        <a href="<?php echo get_home_url(); ?>/contacto" class="link-menu-float title avenir-normal ls2 color-white">Contacto</a>
     </div>
     <div class="cont-redes-menu centrar_ancho">
         <div class="avenir-normal big uppercase ls2 color_white">

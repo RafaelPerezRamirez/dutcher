@@ -581,6 +581,10 @@ object.logo {
     background: url('assets/images/sprite.png');
     margin-right: 20px;
 }
+.redcontacto{
+    background: url('assets/images/spriteblack.png');
+    zoom: 1.35;
+}
 a.red.redtw {
     background-position: -100px 0px;
 }
@@ -1050,4 +1054,49 @@ aside.single-aside-left .redes-author {
     font-family: 'avenir-normal';
     font-size: 16px;
     margin-top: 20px;
+}
+.logo-somos object {
+    width: 450px;
+}
+.content-somos {
+    padding: 100px 0px;
+}
+.text-somos {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.vision-dutcher{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.content-contacto .titlespecial {
+    margin-bottom: 30px;
+}
+.content-contacto .title {
+    margin-bottom: 30px;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
 }

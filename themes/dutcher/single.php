@@ -53,10 +53,10 @@
                                         <?php the_category(', ') ?>
                                     </div>
                                 </div>
-                                <div class="avenir-bold big uppercase ls1 title-related"><?php the_title(); ?></div>
-                                <div class="avenir-normal medium">
+                                <a href="<?php echo the_permalink(); ?>" class="avenir-bold big uppercase ls1 title-related"><?php the_title(); ?></a>
+                                <a href="<?php echo the_permalink(); ?>" class="avenir-normal medium">
                                     <?php the_excerpt(); ?>
-                                </div>
+                                </a>
                             </a>
                         </div>
                     <?php }

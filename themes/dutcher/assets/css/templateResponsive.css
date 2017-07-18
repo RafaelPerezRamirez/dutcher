@@ -69,6 +69,9 @@
         line-height: 35px;
         font-size: 19px;
     }
+    .text-somos {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 800px) {
     .menu-menu-header-container{
@@ -210,6 +213,19 @@
         line-height: 35px;
         height: 35px;
     }
+    .logo-somos object {
+        width: 280px;
+    }
+    .content-somos {
+        padding: 50px 0px;
+    }
+    .text-somos{
+        margin-top: 25px;
+    }
+    .content-contacto {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 479px) {
     .links-category{
@@ -320,5 +336,8 @@
     }
     .body-single{
         margin-top: 20px;
+    }
+    .logo-somos object {
+        width: 230px;
     }
 }
