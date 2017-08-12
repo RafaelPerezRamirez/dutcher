@@ -1129,3 +1129,6 @@ aside.single-aside-left .redes-author {
 nav object.logo{
     z-index: 10;
 }
+.body-single strong {
+    font-family: 'espinoza-bold'!important;
+}
