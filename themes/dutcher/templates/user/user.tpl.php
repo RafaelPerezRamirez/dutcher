@@ -1,5 +1,5 @@
 <div class="grid-author">
-    <div class="inline middle img-author" style="background-image:url(<?php echo get_avatar_url( get_the_author_meta( 'ID' )); ?>);"></div>
+    <div class="inline middle img-author" style="background-image:url(<?php echo scrapeImage(get_wp_user_avatar($user_info->ID)); ?>);"></div>
     <div class="inline middle info-author">
         <div class="nombre-author avenir-bold uppercase big ls2 color-blue">
             <?php the_author_posts_link(); ?>

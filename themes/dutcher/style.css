@@ -372,7 +372,7 @@ object.logo {
     bottom: 20%;
     right: 5%;
     z-index: 10;
-    width: 55%;
+    width: 60%;
     min-height: 165px;
     overflow: hidden;
 }
@@ -834,12 +834,14 @@ input#s:focus{
     background-size: cover;
     display: inline-block;
     vertical-align: middle;
+    background-position: center;
 }
 .nombre-author{
     pointer-events: none;
 }
 .grid-author .info-author {
     display: inline-block!important;
+    width: 86%;
 }
 a.red-author {
     background-color: #354a5f;
