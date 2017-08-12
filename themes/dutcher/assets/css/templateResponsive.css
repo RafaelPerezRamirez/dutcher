@@ -226,6 +226,19 @@
         width: 80%;
         margin: 0 auto;
     }
+    .body-single blockquote{
+        font-size: 20px;
+    }
+    .body-single p a{
+        font-size: 13px;
+    }
+    .body-single pre {
+        background: #f7f7f7;
+        line-height: 6px;
+        padding: 10px;
+        border: solid 1px #e4e4e4;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 479px) {
     .links-category{

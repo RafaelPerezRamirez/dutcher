@@ -1103,3 +1103,31 @@ aside.single-aside-left .redes-author {
 .fadeIn {
   animation-name: fadeIn;
 }
+.body-single blockquote {
+    font-size: 40px;
+    font-family: 'avenir-normal';
+    letter-spacing: 3px;
+    border-left: solid 6px black;
+    padding-left: 20px;
+    line-height: 50px;
+}
+.body-single p a {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #354a5f;
+}
+.body-single h6 {
+    font-size: 13px;
+    line-height: 6px;
+}
+.body-single pre {
+    background: #f7f7f7;
+    line-height: 24px;
+    padding: 10px;
+    border: solid 1px #e4e4e4;
+    font-size: 15px;
+}
+nav object.logo{
+    z-index: 10;
+}
