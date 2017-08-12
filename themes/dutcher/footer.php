@@ -5,7 +5,7 @@
 			<div class="inline middle content-footer relative">
 				<div class="centrar_total">
 					<a href="<?php echo get_home_url(); ?>" class="logo-button centrar_total">
-		                <object data="<?php echo assets(); ?>/images/logo2.svg" type="image/svg+xml" class="logo"></object>
+						<img src="<?php echo assets(); ?>/images/logo2.svg" alt="">
 		            </a>
 				</div>
 			</div><!--
