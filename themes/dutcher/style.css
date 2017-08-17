@@ -372,7 +372,7 @@ object.logo {
     bottom: 20%;
     right: 5%;
     z-index: 10;
-    width: 55%;
+    width: 60%;
     min-height: 165px;
     overflow: hidden;
 }
@@ -625,7 +625,7 @@ body.post-template-default.single.single-post{
     width: 100%;
     height: 500px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .color_white{
     color: white;
@@ -726,6 +726,7 @@ ul.heateor_sss_sharing_ul {
 }
 .content-single{
     line-height: 27px;
+    margin-bottom: 50px;
 }
 .comments-fb{
     padding: 30px 0px;
@@ -835,12 +836,14 @@ input#s:focus{
     background-size: cover;
     display: inline-block;
     vertical-align: middle;
+    background-position: center;
 }
 .nombre-author{
     pointer-events: none;
 }
 .grid-author .info-author {
     display: inline-block!important;
+    width: 86%;
 }
 a.red-author {
     background-color: #354a5f;
@@ -1117,7 +1120,8 @@ aside.single-aside-left .redes-author {
 }
 .body-single h6 {
     font-size: 13px;
-    line-height: 6px;
+    line-height: 15px;
+    margin-top: 15px;
 }
 .body-single pre {
     background: #f7f7f7;
@@ -1131,4 +1135,25 @@ nav object.logo{
 }
 .body-single strong {
     font-family: 'espinoza-bold'!important;
+}
+img.aligncenter {
+    margin: 0 auto;
+    display: block;
+}
+h2.avenir-bold.color_white.titlespecial.ls2.uppercase.text-center {
+    text-shadow: 3px 2px 19px rgba(0, 0, 0, 0.7);
+}
+.subtitle-single {
+    text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.9);
+}
+.md-content {
+    background-color: rgba(255,255,255,0)!important;
+}
+button.md-close {
+    font-family: 'avenir-normal'!important;
+    font-size: 20px!important;
+    right: 60px!important;
+    top: 25px!important;
+    background: transparent!important;
+    border: none!important;
 }

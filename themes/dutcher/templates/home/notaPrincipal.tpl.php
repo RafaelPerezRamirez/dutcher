@@ -4,7 +4,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 <div class="relative content-principal">
     <div class="info-author absolute">
-        <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php echo get_avatar_url( get_the_author_meta( 'ID' )); ?>);"></a>
+        <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php echo scrapeImage(get_wp_user_avatar($user_info->ID)); ?>);"></a>
         <div class="inline name-author big color_white avenir-normal inline middle ls1">
             <?php the_author_posts_link(); ?>
         </div>

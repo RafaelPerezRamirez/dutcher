@@ -22,34 +22,18 @@
  	$dev = false;
  	$desarrollos = array(
  		'localhost',
- 		'187.188.119.69',
- 		'192.168',
- 		'.ngrok.io',
- 		'gafa.codes',
  	);
  	$protocolo = 'http';
  	foreach( $desarrollos as $aguja ){
- 		/*
- 		** BUSCAMOS SI ESTAMOS O NO EN DEV
- 		*/
  		if( strpos( $_SERVER['HTTP_HOST'] ,$aguja) !== false ){
  			$dev = true;
  			define('DESARROLLO', true);
-
 			define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME'].'/'.basename( dirname( __DIR__ ) ) );
 			define('WP_SITEURL',    WP_HOME.'/wp');
-
- 			if( $_SERVER['SERVER_ADMIN'] === 'mario@gafa.mx'){
- 				define('DB_HOST', 'localhost');
- 			}else{
- 				define('DB_HOST', 'localhost');
- 			};
- 			//define('DB_HOST', '187.188.119.69');
-
- 			define('DB_USER', 'dutcher');
- 			define('DB_NAME', 'dutcher');
-
- 			define('DB_PASSWORD', 'kD0chHHgII2BTNLM');
+ 			define('DB_HOST', 'localhost');
+            define('DB_NAME', 'dutcherm__[ng$FxyBMM}22-j');
+ 			define('DB_USER', 'dutcherm__Ea6zRX');
+ 			define('DB_PASSWORD', '5x92s&#yhiUd');
  			return;
  		};
  	};
@@ -62,9 +46,10 @@
 		define('WP_HOME',    $protocolo.'://' . $_SERVER['SERVER_NAME']);
 		define('WP_SITEURL',    WP_HOME.'/wp');
 
- 		define('DB_HOST', '');
- 		define('DB_USER', '');
- 		define('DB_NAME', '');
+ 		define('DB_HOST', 'localhost');
+ 		define('DB_USER', 'dutcherm__Ea6zRX');
+ 		define('DB_NAME', 'dutcherm__[ng$FxyBMM}22-j');
+        define('DB_PASSWORD', '5x92s&#yhiUd');
  	};
  };
 
@@ -100,7 +85,7 @@ define('NONCE_SALT', 'tg>x-PQ1dIs2yl(H4vYGeFwSZc@L_8Z=$F.H l-~]UqzBf;6.<WaGeYX]T
  * Cambia el prefijo si deseas instalar multiples blogs en una sola base de datos.
  * Emplea solo números, letras y guión bajo.
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'mEsQZFDJDeUq3_';
 
 
 /**
