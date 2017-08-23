@@ -3,21 +3,19 @@
 <div id="content" role="main" class="content-blog">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div class="single-header relative" style="background-image:url('<?php echo the_post_thumbnail_url( ); ?> ');">
-        <div class="category-single avenir-normal medium ls2 uppercase">
-            <?php the_category(', ') ?>
-        </div>
-        <div class="centrar_total">
-            <h2 class="avenir-bold color_white titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
-            <h3 class="avenir-normal color_white ls2 text-center subtitle-single"><?php the_subtitle(); ?></h3>
-        </div>
     </div>
     <div class="body-single">
         <main class="main-single inline top">
             <div id="post-<?php the_ID(); ?>">
+                <div class="category-single avenir-normal medium ls2 uppercase">
+                    <?php the_category(', ') ?>
+                </div>
+                    <h2 class="avenir-bold titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
+                    <h3 class="avenir-normal ls2 text-center subtitle-single"><?php the_subtitle(); ?></h3>
                 <div class="author-small">
                     <?php echo Gafa\GafaTemplate::Imprimir( 'user/user.tpl.php'); ?>
                 </div>
-                <div class="avenir-normal medium uppercase">
+                <div class="avenir-normal medium uppercase text-center">
                     <?php the_time('j') ?> de <?php the_time('F, Y'); ?>
                 </div>
                 <hr class="hr-single">

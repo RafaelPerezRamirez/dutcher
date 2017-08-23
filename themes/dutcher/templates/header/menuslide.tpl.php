@@ -9,12 +9,13 @@
         </div>
         <hr>
         <div class="menu-oculto">
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Tendencia</a>
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Musiquita</a>
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Munchies</a>
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Cultura</a>
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Road & trip</a>
-            <a href="#" class="link-menu-float title avenir-normal ls2 color-white">Personajes</a>
+            <a href="<?php echo get_home_url(); ?>/category/tendencia" class="link-menu-float title avenir-normal ls2 color-white">Tendencia</a>
+            <a href="<?php echo get_home_url(); ?>/category/musiquita" class="link-menu-float title avenir-normal ls2 color-white">Musiquita</a>
+            <a href="<?php echo get_home_url(); ?>/category/munchies" class="link-menu-float title avenir-normal ls2 color-white">Munchies</a>
+            <a href="<?php echo get_home_url(); ?>/category/cultura" class="link-menu-float title avenir-normal ls2 color-white">Cultura</a>
+            <a href="<?php echo get_home_url(); ?>/category/roadandtrip" class="link-menu-float title avenir-normal ls2 color-white">Road & trip</a>
+            <a href="<?php echo get_home_url(); ?>/category/personajes" class="link-menu-float title avenir-normal ls2 color-white">Personajes</a>
+            <a href="<?php echo get_home_url(); ?>/category/film-y-series" class="link-menu-float title avenir-normal ls2 color-white">Film & series</a>
         </div>
         <a href="<?php echo get_home_url(); ?>/quienes-somos" class="link-menu-float title avenir-normal ls2 color_white">Quienes somos</a>
         <a href="<?php echo get_home_url(); ?>/contacto" class="link-menu-float title avenir-normal ls2 color-white">Contacto</a>

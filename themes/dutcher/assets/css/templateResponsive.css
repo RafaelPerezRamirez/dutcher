@@ -126,11 +126,12 @@
     main.main-single{
         padding-left: initial;
     }
+    .slide-up{
+        bottom: 20px;
+        right: 20px;
+    }
 }
 @media screen and (max-width: 679px) {
-    .big{
-        font-size: 13px;
-    }
     .title{
         font-size: 18px;
     }
@@ -143,8 +144,9 @@
     .feed-posts{
         margin-top: 35px;
     }
-    .info-post .title, .info-post .excerpt{
+    .info-post .excerpt{
         position: initial!important;
+        line-height: 19px;
     }
     .single-post .shadow-position{
         opacity: 0.5;
@@ -239,6 +241,15 @@
         border: solid 1px #e4e4e4;
         font-size: 10px;
     }
+    .body-single .titlespecial {
+        font-size: 25px;
+        line-height: 37px!important;
+    }
+    section.content-single h2 {
+        text-align: left;
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
 @media screen and (max-width: 479px) {
     .links-category{
@@ -262,10 +273,13 @@
         margin-bottom: 10px;
     }
     .titlespecial{
-        font-size: 22px;
+        font-size: 19px;
+    }
+    .subtitle-single{
+        font-size: 17px;
     }
     .most-recent-post{
-        height: 70vh;
+        height: 92vh;
     }
     .footer-dos {
         padding: 15px 10px;
@@ -284,11 +298,8 @@
         width: 100px;
         height: 100px;
     }
-    .big{
-        font-size: 12px;
-    }
     .title{
-        font-size: 15px;
+        font-size: 16px;
     }
     .category-tab {
         letter-spacing: 2px;
@@ -313,14 +324,17 @@
         width: 100%;
     }
     .new-foto-instagram{
-        width: 95px;
-        height: 95px;
+        width: 80px;
+        height: 80px;
+    }
+    .menu-oculto .title {
+        font-size: 18px;
     }
     .button-close{
         display: block;
     }
     .second-menu .centrar_total{
-        top: 40%;
+        top: 42%;
     }
     .search-button{
         width: 22px;
@@ -352,5 +366,24 @@
     }
     .logo-somos object {
         width: 230px;
+    }
+    .red{
+        margin-top: 10px;
+    }
+    .slide-up{
+        background-size: 15px;
+    }
+    .subtitle-single {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .single-header.relative .centrar_total {
+        width: 90%;
+    }
+    .category-single{
+        top: 10px;
+    }
+    .body-single blockquote {
+        line-height: 26px;
     }
 }

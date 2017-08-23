@@ -21,6 +21,6 @@
         </div>
     </div>
     <form role="search" method="get" id="searchform" class="searchform form-search animationMenu" action="<?php echo home_url('/'); ?>">
-        <input type="text" name="s" id="s" placeholder="Search">
+        <input type="text" name="s" id="s" placeholder="Buscar">
     </form>
 </nav>

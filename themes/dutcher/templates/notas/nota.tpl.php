@@ -15,9 +15,9 @@
             <a href="<?php the_permalink() ?>" class="title avenir-bold uppercase ls2">
                 <?php the_title(); ?>
             </a>
-            <div class="big avenir-normal ls1 excerpt">
+            <a href="<?php the_permalink() ?>" class="big avenir-normal ls1 excerpt">
                 <?php echo get_the_excerpt();?>
-            </div>
+            </a>
         </div>
     </div>
     <?php endwhile;?>

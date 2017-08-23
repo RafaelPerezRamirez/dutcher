@@ -31,9 +31,9 @@
 			define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME'].'/'.basename( dirname( __DIR__ ) ) );
 			define('WP_SITEURL',    WP_HOME.'/wp');
  			define('DB_HOST', 'localhost');
-            define('DB_NAME', 'dutcherm__[ng$FxyBMM}22-j');
- 			define('DB_USER', 'dutcherm__Ea6zRX');
- 			define('DB_PASSWORD', '5x92s&#yhiUd');
+            define('DB_USER', 'dutcher');
+ 			define('DB_NAME', 'dutcher');
+ 			define('DB_PASSWORD', 'kD0chHHgII2BTNLM');
  			return;
  		};
  	};
@@ -46,10 +46,10 @@
 		define('WP_HOME',    $protocolo.'://' . $_SERVER['SERVER_NAME']);
 		define('WP_SITEURL',    WP_HOME.'/wp');
 
- 		define('DB_HOST', 'localhost');
- 		define('DB_USER', 'dutcherm__Ea6zRX');
- 		define('DB_NAME', 'dutcherm__[ng$FxyBMM}22-j');
-        define('DB_PASSWORD', '5x92s&#yhiUd');
+        define('DB_HOST', 'localhost');
+        define('DB_USER', 'dutcher');
+        define('DB_NAME', 'dutcher');
+        define('DB_PASSWORD', 'kD0chHHgII2BTNLM');
  	};
  };
 
@@ -85,7 +85,7 @@ define('NONCE_SALT', 'tg>x-PQ1dIs2yl(H4vYGeFwSZc@L_8Z=$F.H l-~]UqzBf;6.<WaGeYX]T
  * Cambia el prefijo si deseas instalar multiples blogs en una sola base de datos.
  * Emplea solo números, letras y guión bajo.
  */
-$table_prefix  = 'mEsQZFDJDeUq3_';
+$table_prefix  = 'wp_';
 
 
 /**

@@ -31,8 +31,9 @@
     <!-- Google Analytics -->
 </head>
 <body <?php body_class("normal"); ?>>
+<div class="pointer slide-up"></div>
 <?php echo Gafa\GafaTemplate::Imprimir( 'header/menuslide.tpl.php'); ?>
 <div class="shadow-layer animationMenu"></div>
 <div class="main-content animationMenu">
     <?php echo Gafa\GafaTemplate::Imprimir( 'header/menu.tpl.php'); ?>
-    <div class="content-feed animated fadeIn">
+    <div class="content-feed animated fadeIn" id="main-content">
