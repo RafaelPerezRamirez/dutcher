@@ -4,8 +4,8 @@
 		<div class="footer">
 			<div class="inline middle content-footer relative">
 				<div class="centrar_total">
-					<a href="<?php echo get_home_url(); ?>" class="logo-button centrar_total">
-						<img src="<?php echo assets(); ?>/images/logo2.svg" alt="">
+					<a href="<?php echo get_home_url(); ?>" class="logo-button">
+						<img src="<?php echo assets(); ?>/images/logodutcher.png" alt="">
 		            </a>
 				</div>
 			</div><!--

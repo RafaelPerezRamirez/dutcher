@@ -297,9 +297,6 @@ nav{
 .span-button-tres{
     bottom: 0;
 }
-object{
-    pointer-events: none;
-}
 a.logo-button {
     display: block;
     top: 53%;
@@ -307,9 +304,7 @@ a.logo-button {
 }
 .footer a.logo-button{
     left: 0px;
-}
-object.logo {
-    width: 180px;
+    width: 380px;
 }
 .search-button{
     right: 50px;
@@ -559,9 +554,6 @@ object.logo {
     width: 33.33%;
     min-height: 500px;
     position: relative;
-}
-.footer object.logo{
-    width: 400px;
 }
 .footer-dos{
     width: 100%;
@@ -1210,4 +1202,7 @@ body.post-template-default.single.single-post.staticBody{
 }
 section.content-single h2{
     text-align: left;
+}
+.logo-header {
+    width: 160px;
 }

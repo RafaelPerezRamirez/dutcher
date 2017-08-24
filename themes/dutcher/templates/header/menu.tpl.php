@@ -5,8 +5,8 @@
             <span class="span-button-dos centrar_alto"></span>
             <span class="span-button-tres"></span>
         </div>
-        <a href="<?php echo get_home_url(); ?>" class="logo-button centrar_alto">
-            <object data="<?php echo assets(); ?>/images/logo2.svg" type="image/svg+xml" class="logo"></object>
+        <a href="<?php echo get_home_url(); ?>" class="logo-button centrar_alto logo-header">
+            <img src="<?php echo assets(); ?>/images/logodutcher.png" alt="">
         </a>
         <div class="links-category">
             <?php

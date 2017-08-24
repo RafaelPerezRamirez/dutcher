@@ -10,6 +10,12 @@
     .content-single-related {
         width: 32.5%;
     }
+    .footer a.logo-button {
+        width: 280px;
+    }
+    .logo-header {
+        width: 130px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .small{
@@ -72,6 +78,9 @@
     .text-somos {
         width: 80%;
     }
+    .logo-header {
+        width: 120px;
+    }
 }
 @media screen and (max-width: 800px) {
     .menu-menu-header-container{
@@ -129,6 +138,14 @@
     .slide-up{
         bottom: 20px;
         right: 20px;
+    }
+    .footer a.logo-button {
+        width: 200px;
+    }
+    .logo-header {
+        left: 50%!important;
+        transform: translate(-50%,-50%)!important;
+        width: 160px;
     }
 }
 @media screen and (max-width: 679px) {
@@ -249,6 +266,10 @@
         text-align: left;
         font-size: 16px;
         line-height: 25px;
+    }
+    .footer a.logo-button {
+        width: 250px;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 479px) {
@@ -385,5 +406,14 @@
     }
     .body-single blockquote {
         line-height: 26px;
+    }
+    .footer a.logo-button {
+        top: initial!important;
+        left: initial!important;
+        transform: initial!important;
+        width: 220px;
+    }
+    .logo-header {
+        width: 130px;
     }
 }
