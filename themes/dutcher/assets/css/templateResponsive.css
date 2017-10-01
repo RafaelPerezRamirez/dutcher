@@ -416,4 +416,7 @@
     .logo-header {
         width: 130px;
     }
+    .single .content-feed{
+        padding-top: 0px;
+    }
 }

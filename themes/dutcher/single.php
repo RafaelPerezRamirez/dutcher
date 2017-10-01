@@ -47,9 +47,6 @@
                         <div class="content-single-related">
                             <a class="single-related-post" href="<?php the_permalink() ?>">
                                 <div class="image-related relative" style="background-image:url('<?php echo the_post_thumbnail_url( ); ?> ');">
-                                    <div class="category-single avenir-normal medium ls2 uppercase">
-                                        <?php the_category(', ') ?>
-                                    </div>
                                 </div>
                                 <a href="<?php echo the_permalink(); ?>" class="avenir-bold big uppercase ls1 title-related"><?php the_title(); ?></a>
                                 <a href="<?php echo the_permalink(); ?>" class="avenir-normal medium">
