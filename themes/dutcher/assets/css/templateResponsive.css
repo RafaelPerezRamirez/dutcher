@@ -28,7 +28,7 @@
         font-size: 12px;
     }
     .big{
-        font-size: 17px;
+        font-size: 16px;
     }
     .title{
         font-size: 21px;
@@ -146,6 +146,9 @@
         left: 50%!important;
         transform: translate(-50%,-50%)!important;
         width: 160px;
+    }
+    .main-single iframe{
+        width: 100%!important;
     }
 }
 @media screen and (max-width: 679px) {
@@ -270,6 +273,17 @@
     .footer a.logo-button {
         width: 250px;
         margin: 0 auto;
+    }
+    .content-single{
+        line-height: 21px;
+        margin-bottom: 50px;
+    }
+    main.main-single p {
+        margin-bottom: 6px;
+    }
+    .main-single iframe{
+        min-height: 170px!important
+
     }
 }
 @media screen and (max-width: 479px) {

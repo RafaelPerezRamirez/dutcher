@@ -7,7 +7,7 @@
     <div class="body-single">
         <main class="main-single inline top">
             <div id="post-<?php the_ID(); ?>">
-                <div class="category-single avenir-normal medium ls2 uppercase">
+                <div class="category-single espinoza-normal medium ls2 uppercase">
                     <?php the_category(', ') ?>
                 </div>
                     <h2 class="avenir-bold titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
