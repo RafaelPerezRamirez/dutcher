@@ -19,7 +19,7 @@
                     <?php the_time('j') ?> de <?php the_time('F, Y'); ?>
                 </div>
                 <hr class="hr-single">
-                <section class="content-single espinoza-normal big ls1 text-justify">
+                <section class="content-single avenir-normal big ls1 text-justify">
                     <?php the_content(); ?>
                 </section>
                 <?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>

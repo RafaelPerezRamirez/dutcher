@@ -7,6 +7,7 @@
         <?php echo Gafa\GafaTemplate::Imprimir( 'home/munchies.tpl.php'); ?>
         <?php echo Gafa\GafaTemplate::Imprimir( 'home/cultura.tpl.php'); ?>
         <?php echo Gafa\GafaTemplate::Imprimir( 'home/roadTrip.tpl.php'); ?>
+        <?php echo Gafa\GafaTemplate::Imprimir( 'home/personajes.tpl.php'); ?>
         <?php echo Gafa\GafaTemplate::Imprimir( 'home/films.tpl.php'); ?>
     </div>
 <?php get_footer();?>

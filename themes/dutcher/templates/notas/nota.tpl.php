@@ -5,12 +5,12 @@
             <?php the_category(', ') ?>
         </div>
         <div class="shadow-position absolute animationMenu"></div>
-        <div class="info-author absolute">
-            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php echo scrapeImage(get_wp_user_avatar($user_info->ID)); ?>);"></a>
+        <!--div class="info-author absolute">
+            <a href="<?php //echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>" class="inline middle foto-autor" style="background-image:url(<?php //echo scrapeImage(get_wp_user_avatar($user_info->ID)); ?>);"></a>
             <div class="inline name-author big color_white avenir-normal inline middle ls1">
-                <?php the_author_posts_link(); ?>
+                <?php //the_author_posts_link(); ?>
             </div>
-        </div>
+        </div-->
         <div class="info-post text-right color-white animationMenu">
             <a href="<?php the_permalink() ?>" class="title avenir-bold uppercase ls2">
                 <?php the_title(); ?>
