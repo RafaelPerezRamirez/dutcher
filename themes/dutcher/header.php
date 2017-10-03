@@ -27,6 +27,7 @@
     <!--suppress HtmlUnknownTarget -->
     <link type="text/css" rel="stylesheet" href="<?php assets(); ?>/css/templateResponsive.css"/>
     <!-- Comienza WP Head -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
     <?php wp_head(); ?>
     <!-- Google Analytics -->
 </head>
