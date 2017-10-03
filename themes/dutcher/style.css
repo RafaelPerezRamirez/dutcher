@@ -1217,3 +1217,6 @@ section.content-single h2{
 iframe {
     min-height: 450px;
 }
+main.main-single div {
+    max-width: 100%!important;
+}

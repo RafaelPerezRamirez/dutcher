@@ -28,7 +28,7 @@
         font-size: 12px;
     }
     .big{
-        font-size: 16px;
+        font-size: 17px;
     }
     .title{
         font-size: 21px;
@@ -266,7 +266,6 @@
         line-height: 37px!important;
     }
     section.content-single h2 {
-        text-align: left;
         font-size: 16px;
         line-height: 25px;
     }
@@ -282,8 +281,17 @@
         margin-bottom: 6px;
     }
     .main-single iframe{
-        min-height: 170px!important
-
+        min-height: 170px!important;
+        max-height: 200px!important;
+    }
+    .body-single strong{
+        font-size: 13px;
+    }
+    section.content-single h2, section.content-single h1, section.content-single h3{
+        text-align: center;
+    }
+    .body-single h3 {
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 479px) {
@@ -314,7 +322,7 @@
         font-size: 17px;
     }
     .most-recent-post{
-        height: 92vh;
+        height: 85vh;
     }
     .footer-dos {
         padding: 15px 10px;
@@ -373,13 +381,13 @@
     }
     .search-button{
         width: 22px;
-        padding-top: 12px;
+        padding-top: 20px;
     }
     .header-menu{
-        height: 45px;
+        height: 60px;
     }
     .content-feed{
-        padding-top: 45px;
+        padding-top: 60px;
     }
     .form-search input{
         height: 42px;

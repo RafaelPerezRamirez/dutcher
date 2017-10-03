@@ -7,7 +7,7 @@
     <div class="body-single">
         <main class="main-single inline top">
             <div id="post-<?php the_ID(); ?>">
-                <div class="category-single espinoza-normal medium ls2 uppercase">
+                <div class="category-single avenir-normal medium ls2 uppercase">
                     <?php the_category(', ') ?>
                 </div>
                     <h2 class="avenir-bold titlespecial ls2 uppercase text-center"><?php the_title(); ?></h2>
@@ -19,7 +19,7 @@
                     <?php the_time('j') ?> de <?php the_time('F, Y'); ?>
                 </div>
                 <hr class="hr-single">
-                <section class="content-single avenir-normal big ls1 text-justify">
+                <section class="content-single espinoza-normal big ls1 text-justify">
                     <?php the_content(); ?>
                 </section>
                 <?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
