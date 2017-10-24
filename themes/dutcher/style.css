@@ -38,7 +38,7 @@
     font-family: 'avenir-bold';
 }
 .espinoza-normal{
-    font-family: 'espinoza-normal';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .espinoza-bold{
     font-family: 'espinoza-bold';
@@ -350,7 +350,7 @@ a.logo-button {
     font-size: 14px;
 }
 .big{
-    font-size: 16px;
+    font-size: 17px;
 }
 .title{
     font-size: 22px;
@@ -655,7 +655,7 @@ main.main-single {
     line-height: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     text-align: center;
     position: initial;
     background: transparent;
@@ -728,8 +728,12 @@ ul.heateor_sss_sharing_ul {
     display: none;
 }
 .content-single{
-    line-height: 24px;
+    line-height: 22px;
     margin-bottom: 50px;
+    color: #1d1d1d;
+}
+main.main-single p {
+    margin-bottom: 5px;
 }
 .comments-fb{
     padding: 30px 0px;
@@ -981,7 +985,7 @@ aside.single-aside-left .redes-author {
     display: none;
 }
 .author-small .nombre-author {
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 5px;
 }
 .heateor_sss_sharing_container.heateor_sss_horizontal_sharing {
@@ -1053,8 +1057,23 @@ aside.single-aside-left .redes-author {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+.facebook-plugin{
+    width: 100%;
+    max-height: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
 .content-suscription{
     width: 80%;
+    height: 300px;
+}
+.content-suscription iframe {
+    min-height: 300px!important;
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+    height: 100%!important;
+    min-height: initial!important;
 }
 .mc4wp-alert.mc4wp-success {
     text-align: center;
@@ -1216,7 +1235,15 @@ section.content-single h2{
 }
 iframe {
     min-height: 450px;
+    min-width: 100%;
 }
 main.main-single div {
     max-width: 100%!important;
+}
+.main-single .category-single a {
+    font-size: 13px;
+    color: #364b5f;
+}
+.body-single strong {
+    font-size: 14px;
 }

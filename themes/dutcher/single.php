@@ -19,7 +19,7 @@
                     <?php the_time('j') ?> de <?php the_time('F, Y'); ?>
                 </div>
                 <hr class="hr-single">
-                <section class="content-single espinoza-normal big ls1 text-justify">
+                <section class="content-single espinoza-normal big text-justify">
                     <?php the_content(); ?>
                 </section>
                 <?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
@@ -33,7 +33,8 @@
                 </div>
                 <hr class="hr-single">
                 <br>
-                <?php echo do_shortcode('[fbcomments]'); ?>
+                <div class="fb-comments" data-href="https://www.facebook.com/Dutchermx/" data-width="100%" data-numposts="10"></div>
+                
             </div>
             <hr class="hr-single">
             <div class="related-single">
@@ -60,6 +61,9 @@
             </div>
         </main>
         <aside class="single-aside-left inline top">
+            <div class="facebook-plugin">
+                <div class="fb-page" data-href="https://www.facebook.com/Dutchermx/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Dutchermx/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Dutchermx/"></a></blockquote></div>
+            </div>
             <div class="most-recent">
                 <div class="text-center avenir-normal text-most-recent">
                     Lo más reciente

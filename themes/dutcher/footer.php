@@ -11,15 +11,14 @@
 			</div><!--
 		 --><div class="inline middle content-footer">
 		 		<div class="centrar_total content-suscription">
-		 			<?php echo do_shortcode('[mc4wp_form id="43"]'); ?>
+					<div class="fb-page" data-href="https://www.facebook.com/Dutchermx/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Dutchermx/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Dutchermx/"></a></blockquote></div>
 		 		</div>
 		 	</div><!--
 	  	 --><div class="inline middle content-footer relative">
 		 		<div class="centrar_total">
 					<div class="content-redes text-center">
-						<a href="#" class="red redfb"></a>
-						<a href="#" class="red redtw"></a>
-						<a href="#" class="red redinsta"></a>
+						<a target="_blank" href="https://www.facebook.com/Dutchermx/" class="red redfb" onclick="ga('send', 'event', 'button', 'click', 'social-facebook');"></a>
+						<a target="_blank" href="https://www.instagram.com/dutchermx/" class="red redinsta" onclick="ga('send', 'event', 'button', 'click', 'social-instagram');"></a>
 					</div>
 					<a href="mailto:hello@dutcher.rocks" class="ls3 avenir-normal big mail-dutcher">hello@dutcher.rocks</a>
 		 		</div>
