@@ -33,8 +33,7 @@
                 </div>
                 <hr class="hr-single">
                 <br>
-                <div class="fb-comments" data-href="https://www.facebook.com/Dutchermx/" data-width="100%" data-numposts="10"></div>
-                
+                <?php echo do_shortcode('[fbcomments]'); ?>
             </div>
             <hr class="hr-single">
             <div class="related-single">

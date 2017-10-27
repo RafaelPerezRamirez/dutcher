@@ -1070,7 +1070,12 @@ aside.single-aside-left .redes-author {
 .content-suscription iframe {
     min-height: 300px!important;
 }
-.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+.content-suscription .fb_iframe_widget, .content-suscription .fb_iframe_widget, .content-suscription .fb_iframe_widget span, .content-suscription .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+    height: 100%!important;
+    min-height: initial!important;
+}
+aside.single-aside-left .fb_iframe_widget, aside.single-aside-left .fb_iframe_widget, aside.single-aside-left .fb_iframe_widget span, aside.single-aside-left .fb_iframe_widget span iframe[style] {
     width: 100% !important;
     height: 100%!important;
     min-height: initial!important;
