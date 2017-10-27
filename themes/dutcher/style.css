@@ -563,7 +563,7 @@ a.logo-button {
     background: #2ebd9a;
     padding-top: 5px;
 }
-.red{
+.red, .red-fija{
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -1251,4 +1251,20 @@ main.main-single div {
 }
 .body-single strong {
     font-size: 14px;
+}
+.redes-cont-fix{
+    background: #2fbd99;
+    position: fixed;
+    top: 1%;
+    z-index: 100;
+    width: 200px;
+    padding: 5px 0px;
+    left: 22.5%;
+}
+.red-fija-ins {
+    background-position: -202px 2px;
+}
+a.red-fija {
+    border-radius: 100%;
+    margin-right: 18px!important;
 }

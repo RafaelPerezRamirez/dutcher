@@ -24,3 +24,10 @@
         <input type="text" name="s" id="s" placeholder="Buscar">
     </form>
 </nav>
+<div class="redes-cont-fix text-center">
+    <div class="avenir-normal big text-center color-white">
+        Síguenos en redes
+    </div>
+    <a href="https://www.facebook.com/Dutchermx/" class="red-fija red-fija-fb inline middle" target="_blank"></a>
+    <a href="https://www.instagram.com/dutchermx/" class="red-fija red-fija-ins inline middle" target="_blank"></a>
+</div>

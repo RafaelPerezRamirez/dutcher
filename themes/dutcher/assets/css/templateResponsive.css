@@ -16,6 +16,14 @@
     .logo-header {
         width: 130px;
     }
+    .redes-cont-fix {
+        left: initial;
+        right: 0%;
+        top: 9%;
+    }
+    #menu-header li{
+        width: 103px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .small{
@@ -149,6 +157,17 @@
     }
     .main-single iframe{
         width: 100%!important;
+    }
+    .redes-cont-fix {
+        left: 0%;
+        right: initial;
+        width: 100%;
+        bottom: 0%;
+        top: initial;
+        padding: 2px 0px;
+    }
+    a.red-fija {
+        zoom: 0.9;
     }
 }
 @media screen and (max-width: 679px) {
@@ -299,6 +318,23 @@
     }
     .body-single h3 {
         font-size: 14px;
+    }
+    .redes-cont-fix .avenir-normal.big.text-center.color-white {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        position: relative;
+        top: 3px;
+        letter-spacing: 1px;
+    }
+    .red-fija-ins {
+        background-position: -202px 0px;
+    }
+    .redes-cont-fix {
+        padding: 4px 0px;
+    }
+    a.red-fija {
+        margin-right: 9px!important;
     }
 }
 @media screen and (max-width: 479px) {
