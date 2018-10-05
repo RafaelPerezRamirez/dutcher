@@ -336,6 +336,12 @@
     a.red-fija {
         margin-right: 9px!important;
     }
+    .redfb-desktop{
+        display: none;
+    }
+    .redfb-responsive{
+        display: inline-block;
+    }
 }
 @media screen and (max-width: 479px) {
     .links-category{

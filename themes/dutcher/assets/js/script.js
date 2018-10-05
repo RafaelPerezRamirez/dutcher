@@ -29,6 +29,7 @@ jQuery(document).ready(function(){
     $('.slide-up').on('click', function(){
         go_to('main-content');
     })
+
     $(window).bind('scroll', function(){
 		var scroller = $(this).scrollTop();
         if(scroller >400){
